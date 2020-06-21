@@ -1,5 +1,5 @@
 </$objtype/mkfile
-DIRS=lib sed doc
+DIRS=lib sed
 
 all:V:
 	for (i in $DIRS)
