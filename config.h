@@ -1,4 +1,11 @@
 /* config_h.in.  Generated from configure.ac by autoheader.  */
+/* manually edited for Plan9 *) */
+
+/*Plan9 hacks*/
+
+#define ELOOP ENOSYS
+
+/* Back to config.h */
 
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD
