@@ -1,5 +1,10 @@
 This is the actual source directory for GNU sed. It will be linked to the gnulib library generated in the /lib directory.
 
+Dependencies:
+    libutf8:
+            I am using GNU libutf8 to provide the wchar.h / wctype.h functions so 
+            these are defined as present in config.h and removed from the gnulib.
+
 sed will be installed as /$objtype/bin/gsed
 
 == current errors ==
