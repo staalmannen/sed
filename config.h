@@ -688,7 +688,7 @@
 #undef HAVE_FCHOWN
 
 /* Define to 1 if you have the `fcntl' function. */
-#defie HAVE_FCNTL 1
+#define HAVE_FCNTL 1
 
 /* Define to 1 if you have the <features.h> header file. */
 #undef HAVE_FEATURES_H
@@ -1013,7 +1013,7 @@
 #define HAVE_STRCHR 1
 
 /* Define to 1 if you have the `strdup' function. */
-#define8 HAVE_STRDUP 1
+#define HAVE_STRDUP 1
 
 /* Define to 1 if you have the `strerror_r' function. */
 #undef HAVE_STRERROR_R
